@@ -1,0 +1,27 @@
+Recursive Functions
+Recursive functions are those which call themselves directly or indirectly. 
+The recursive function consists of the termination condition and the body. 
+We will briefly look at the recursive function and its properties in this lesson.
+
+Introduction#
+The function that calls itself directly or indirectly is known as a recursive function. The recursive method consists of two parts: the termination condition and the body. 
+Both of them are explained below:
+
+Termination condition
+
+One or more terminating conditions are often present in a recursive system. It’s the condition where the function does not call itself.
+
+Body The body of the recursive method contains the core logic of the method. It also includes the recursion expansion argument that invokes the method.
+
+Properties of a recursive algorithm#
+There are three important properties of a recursive algorithm:
+
+A recursive algorithm must have a termination condition.
+
+A recursive algorithm must change its state, and shift the state toward the termination condition.
+
+A recursive algorithm must be capable of calling itself.
+
+Note: The recursive method can run forever if there is no termination condition, eventually consuming all of the stack memory.
+
+Because of stack overheads, a recursive program runs slower. If an iterative approach (using loops) will achieve the same result as recursion, we can use it instead of recursion to minimize stack overhead.
